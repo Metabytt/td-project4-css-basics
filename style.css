@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+/*header*/
+
+header{
+    background-color: rgb(9, 99, 151);
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    color: white;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+ 
+/*section hero*/
+
+section.hero{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+section img{
+    border: solid 10px rgba(9, 99, 151, 0.144);
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+}
+
+section.hero h2{
+    color: rgb(9, 99, 151);
+}
+
+section.hero h4{
+    text-align: center;
+    width: 23%;
+    margin-top: 3px;
+    color: rgba(39, 38, 38, 0.692);
+    font-family: arial;
+    line-height: 23px;
+}
+
+section.hero h4 img{
+   width: 5% ;
+   border: 0;
+   border-radius: 0;
+   height: 15px;
+   margin-top: auto;
+   margin-left: 2px;
+}
+
+/* sectionMydesc */
+
+section.Mydesc{
+    background-color: rgb(9, 99, 151) ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+section.Mydesc .Mydesc_1 h2{
+    line-height: 30px;
+}
+
+section.Mydesc .Mydesc_1{
+    width: 40%;
+    color: white;
+    padding: 20px;
+    margin: 70px 0 50px 50px;
+    line-height: 25px;
+}
+
+section.Mydesc .Mydesc_2{
+    width: 20%;
+    color: white;
+    padding: 20px;
+    margin:  70px 0 50px 50px;
+    line-height: 25px;
+}
+
+section.Mydesc .Mydesc_2 h2{
+    line-height: 30px;
+}
+
+/* Section Service*/
+
+.Service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+div.Service_1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0 60px 0 110px;
+    padding: 20px;
+    width: auto;
+
+}
+
+.Service h2{
+    margin: 50px 0 50px 50px;
+    padding-left: 5px;
+    text-align: center;
+    width: 44%;
+    color: rgb(9, 99, 151);
+}
+
+div .Item{
+    background-color: rgb(4, 44, 66);
+    text-align: center;
+    margin: 0 50px 0 50px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.2;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(9, 99, 151) ;
+    text-align: center;
+    color: white; 
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer h3{
+    margin-top: 50px;
+}
+
+footer h2{
+    margin: 10px;
+}
+
+div img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 10px;
+}
+
+footer p{
+    font-size: smaller;
+    margin-bottom: 50px ;
+    padding-top: 40px;
+}
+
+
+
