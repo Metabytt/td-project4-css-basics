@@ -11,7 +11,6 @@ header{
     background-color: rgb(9, 99, 151);
     width: 100%;
     padding: 20px;
-    
     display: flex;
     justify-content: space-between;
 
@@ -31,9 +30,23 @@ header nav{
     margin-right: 50px;
     padding-right: 50px;
     color: white;
+   
 }
 
- 
+nav a{
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    text-decoration-color: white;
+    border: solid white 2px;
+    padding: 10px;
+}
+
 /*section hero*/
 
 section.hero{
@@ -124,6 +137,7 @@ div.Service_1{
     width: auto;
 
 }
+
 
 .Service h2{
     margin: 50px 0 50px 50px;
